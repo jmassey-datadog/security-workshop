@@ -1,0 +1,1 @@
+This directory contains files to simulate a credential stuffing attack. All of the users and IPs are randomly generated.

@@ -1,0 +1,42 @@
+{
+  "john.doe@gmail.com": {
+    "username":"john.doe@gmail.com",
+    "password": "john.doe@gmail.com",
+    "tenant_id": 1000
+  },
+  "tsxls@gmail.com": {
+    "username":"tsxls@gmail.com",
+    "password": "tsxls@gmail.com",
+    "tenant_id": 1001
+  },
+  "martin.johnson@gmail.com": {
+    "username":"martin.johnson@gmail.com",
+    "password": "martin.johnson@gmail.com",
+    "tenant_id": 1002
+  },
+  "edwin@gmail.com": {
+    "username":"edwin@gmail.com",
+    "password": "edwin@gmail.com",
+    "tenant_id": 1003
+  },
+  "terence.k@gmail.com": {
+    "username":"terence.k@gmail.com",
+    "password": "terence.k@gmail.com",
+    "tenant_id": 1004
+  },
+  "kat.mann@gmail.com": {
+    "username":"kat.mann@gmail.com",
+    "password": "kat.mann@gmail.com",
+    "tenant_id": 1005
+  },
+  "sryan@the_next_unicorn.com": {
+    "username":"sryan@the_next_unicorn.com",
+    "password": "sryan@the_next_unicorn.com",
+    "tenant_id": 1006
+  },
+  "cscott1@blue_chip_enterprise.com": {
+    "username":"cscott1@blue_chip_enterprise.com",
+    "password": "cscott1@blue_chip_enterprise.com",
+    "tenant_id": 1007
+  }
+}

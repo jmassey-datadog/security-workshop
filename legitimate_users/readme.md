@@ -1,0 +1,1 @@
+This directory contains files to simulate users logging into a web application. All of the users are generated randomly.

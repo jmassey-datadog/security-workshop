@@ -1,0 +1,23 @@
+version: '2.0'
+services:
+  server:
+    build: ./server
+    ports:
+      - "9999:80"
+  legitimate_users:
+    build: ./legitimate_users
+    depends_on:
+      - "server"
+  datadog:
+    image: datadog/agent:latest
+    environment:
+     - DD_API_KEY=${DD_API_KEY}
+     - DD_LOGS_ENABLED=true
+     - DD_LOGS_CONFIG_CONTAINER_COLLECT_ALL=true
+     - DD_DOGSTATSD_NON_LOCAL_TRAFFIC=true
+    links:
+      - server
+    volumes:
+     - /var/run/docker.sock:/var/run/docker.sock
+     - /proc/:/host/proc/:ro
+     - /sys/fs/cgroup:/host/sys/fs/cgroup:ro
