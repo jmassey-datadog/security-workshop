@@ -2,10 +2,6 @@ import json
 
 from routes import app
 
-# # step 1 - enable this
-# # only allow the following outcomes for authentication logs
-# AUTH_OUTCOMES = ["success", "failure"]
-#
 def auth_log(outcome, user, client_ip, event_name="authentication", reason=None):
     """
     :param outcome: this is the outcome and is typically success or failure

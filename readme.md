@@ -4,3 +4,4 @@ It has 3 different containers
 * `legitimate_users` with a script to simulate legitimate logins to the server 
 * `attacker` with the script to simulate a credential stuffing attack
 
+This repo also contains a folder named `datadog-terraform`. This folder contains the code needed to configure Datadog to visualize this simulation.
